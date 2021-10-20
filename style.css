@@ -1,0 +1,140 @@
+
+body{
+    padding-right: 16%;
+    padding-left: 16%;
+}
+
+*{
+  max-width: 95vw;
+}
+
+ /* scrollbar*/
+ ::-webkit-scrollbar {
+    width: 5px;
+    margin: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: lightgrey; 
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+
+  
+
+HTML{
+    scroll-behavior: smooth;  
+    overflow-x: hidden; 
+}
+
+.tarjetas{
+  
+    overflow-x: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+.card{
+    width: 800px !important;
+    min-width: 800px !important;
+    margin:  5px;
+    height: fit-content;
+}
+
+.w-50{
+    width: 500px !important;
+    min-width: 300px !important;
+    height: 450px;
+
+}
+
+.intro{
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.card-text{
+    margin-bottom: 0;
+}
+
+.rojo, h5{
+    color: #469ed9 !important;
+    font-size: 1.2em;
+}
+
+.extrainfo{
+  display: none;
+}
+
+.card:hover{
+height: fit-content;
+transition: 0.2s;
+
+}
+
+.card:hover .extrainfo{
+  display:block;
+  transition: 1.2s;
+  
+  }
+
+ 
+
+.numero{
+  color: #469ed9;
+  font-size: 5rem;
+  padding-bottom: -15px;
+  margin-bottom: -15px;
+  font-weight: 800;
+  margin-left: auto;
+  justify-content: center;
+
+
+}
+
+.rol{
+  color:#469ed9;
+  font-size: 3rem;
+  padding-top: 2px;
+  margin-top: 2px;
+  margin-left: auto;
+  justify-content: center;
+}
+#text{
+  display: none;
+}
+
+
+.boton-celeste{
+  background-color:#469ed9 !important;
+  color: white !important;
+}
+
+
+.texto{
+  font-size: 1.2rem;
+  margin: 60px;
+
+}
+
+@media (max-width: 600px) {
+  body{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .texto{
+    font-size: 1.2rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+  }
+}

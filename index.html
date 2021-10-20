@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elecciones presidenciales de Chile | ARN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar  navbar-light">
+      <a style="margin: auto;" class="navbar-brand" href="#">
+        <img src="Boceto_ARN.png" width=100" alt="">
+      </a>
+    </nav>
+
+    <div class="intro">
+        <h1>A un mes de las elecciones</h1>
+
+        <p class="texto text-justify">
+          Las elecciones de Chile para elegir al sustituto del presidente Sebastián Piñera están en la recta final, y a un mes de los comicios siete candidatos se disputan su lugar en La Moneda.
+          <br>
+          <br>
+          El próximo 21 de noviembre se lleva a cabo la primera vuelta presidencial en simultáneo con elecciones a diputados, senadores y consejeros regionales.
+          <br>
+          <br>
+          En las últimas encuestas, ningún candidato supera la barrera del 50%, por lo que se espera que el próximo 19 de diciembre se lleve a cabo una segunda vuelta para definir el nuevo presidente de los chilenos.
+          </p>
+        <div style="margin-left: 50px;">
+
+         <a href="#Presidenciales" >  <button type="button" class="btn boton-celeste">Presidenciales</button></a>
+          <a href="#Legislativas">  <button type="button" class="btn boton-celeste ">Legislativas</button></a>      
+        </div>
+    </div>
+
+
+
+    <h3 id="Presidenciales" ><i class="em em-bust_in_silhouette" aria-role="presentation" aria-label="BUST IN SILHOUETTE"></i> -Los candidatos</h3> 
+    <a   class="btn btn-primary btn-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Insertar visualización
+    </a>
+  </p>
+
+  <div class="collapse" id="collapseExample">
+    <div style="height: 200px;" class="card card-body">
+      <p> <strong>Copiar para insertar</strong></p>
+       <p> &lt;iframe style="width: 100%; height: 900px;" src="https://valentinapriore.github.io/Chile/Cards.html" frameborder="0">< /iframe&gt; </p>
+      <a href="">Ver visualización con Flourish</a>
+    </div>
+  </div>
+        <div class="tarjetas row flex-row flex-nowrap mt-4 pb-4 pt-2">
+            <div  class="card w-50">
+              <img class="card-img-top" src="Boric.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Gabriel Boric</h5>
+                <p class="card-text"> <strong>Lista:</strong> Apruebo Dignidad</p>
+                <p class="card-text"> <strong>Partido:</strong> Frente Amplio</p>
+                <br>
+                <div class="extrainfo">
+                  <p class="card-text"> <strong>Edad:</strong> 35</p>
+                  <p class="card-text"> <strong>Profesión:</strong> Diputado</p>
+                  <p class="card-text"> <strong>Lugar de nacimiento:</strong>Punta Arenas</p>
+                  <p class="card-text"> <strong>Ingresos:</strong>-</p>
+                  <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+
+                </div>
+                
+
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"> <a class="rojo" href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+              </div>
+            </div>
+            <div class="card w-50">
+                <img class="card-img-top" src="Kast.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">José Antonio Kast</h5>
+                  <p class="card-text"> <strong>Lista:</strong> Partido Republicano	</p>
+                  <p class="card-text"> <strong>Partido:</strong> Partido Republicano</p>
+                  <br>
+                  <div class="extrainfo">
+                    <p class="card-text"> <strong>Edad:</strong> 55</p>
+                    <p class="card-text"> <strong>Profesión:</strong> presidente del Partido Republicano</p>
+                    <p class="card-text"> <strong>Lugar de nacimiento:</strong> Santiago de Chile</p>
+                    <p class="card-text"> <strong>Ingresos:</strong> -</p>
+                    <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+  
+                  </div>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"> <a class="rojo" href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+                </div>
+              </div>
+            <div class="card w-50">
+              <img class="card-img-top" src="Provoste.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Yasna Provoste</h5>
+                <p class="card-text"> <strong>Lista:</strong> Unidad Constituyente </p>
+                <p class="card-text"> <strong>Partido:</strong> Democracia Cristiana</p>
+                <br>
+                <div class="extrainfo">
+                  <p class="card-text"> <strong>Edad:</strong> 51</p>
+                  <p class="card-text"> <strong>Profesión:</strong> Profesora de educación física </p>
+                  <p class="card-text"> <strong>Lugar de nacimiento:</strong> Santiago de Chile</p>
+                  <p class="card-text"> <strong>Ingresos:</strong> -</p>
+                  <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+
+                </div>
+                
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"> <a class="rojo" href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+              </div>
+            </div>
+            <div class="card w-50">
+              <img class="card-img-top" src="Sichel.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sebastián Sichel</h5>
+                <p class="card-text"> <strong>Lista:</strong> Chile Podemos Más </p>
+                <p class="card-text"> <strong>Partido:</strong> Independiente</p>
+                <br>
+                <div class="extrainfo">
+                  <p class="card-text"> <strong>Edad:</strong> 44 </p>
+                  <p class="card-text"> <strong>Profesión:</strong> Abogado</p>
+                  <p class="card-text"> <strong>Lugar de nacimiento:</strong> Santiago de Chile</p>
+                  <p class="card-text"> <strong>Ingresos:</strong> -</p>
+                  <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+
+                </div>
+                
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a class="rojo" href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+              </div>
+            </div>
+            <div class="card w-50">
+                <img class="card-img-top" src="Enriquez-Ominami.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Marco Enríquez-Ominami</h5>
+                  <p class="card-text"> <strong>Lista:</strong> Partido Progesista </p>
+                  <p class="card-text"> <strong>Partido:</strong> Partido Progesista</p>
+                  <br>
+                  <div class="extrainfo">
+                    <p class="card-text"> <strong>Edad:</strong> 48</p>
+                    <p class="card-text"> <strong>Profesión: Director de Cine</strong> -</p>
+                    <p class="card-text"> <strong>Lugar de nacimiento:</strong> Santiago de Chile</p>
+                    <p class="card-text"> <strong>Ingresos:</strong> -</p>
+                    <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+  
+                  </div>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+                </div>
+              </div>
+              <div class="card w-50">
+                <img class="card-img-top" src="Parisi.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Franco Parisi</h5>
+                  <p class="card-text"> <strong>Lista:</strong> Partido de la Gente </p>
+                  <p class="card-text"> <strong>Partido:</strong> Partido de la Gente</p>
+                  <br>
+                  <div class="extrainfo">
+                    <p class="card-text"> <strong>Edad:</strong> -</p>
+                    <p class="card-text"> <strong>Profesión:</strong> Ingeniero, empresario y lider de su partido</p>
+                    <p class="card-text"> <strong>Lugar de nacimiento:</strong> Santiago de Chile</p>
+                    <p class="card-text"> <strong>Ingresos:</strong> -</p>
+                    <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+  
+                  </div>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a class="rojo" href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+                </div>
+              </div>
+              <div class="card w-50 ">
+                <img class="card-img-top" src="Artes.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Eduardo Artés</h5>
+                  <p class="card-text"> <strong>Lista:</strong> Unión Patriótica </p>
+                  <p class="card-text"> <strong>Partido:</strong> Unión Patriótica</p>
+                  <br>
+                  <div class="extrainfo">
+                    <p class="card-text"> <strong>Edad:</strong> 69</p>
+                    <p class="card-text"> <strong>Profesión:</strong> Profesor y secretario general del Partido Comunista Chileno</p>
+                    <p class="card-text"> <strong>Lugar de nacimiento:</strong> San Vicente de Taguatagua</p>
+                    <p class="card-text"> <strong>Ingresos:</strong> -</p>
+                    <p class="card-text"> <strong>$ de la campaña:</strong> -</p>
+  
+                  </div>
+                  
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"><a class="rojo" href="https://live-latam-go-noticias.pantheonsite.io/nota/1755-quienes-son-los-nueve-candidatos-presidenciales-de-chile"> Ver perfil</a></small>
+                </div>
+              </div>
+          </div>
+      
+
+
+    <h3 style="margin-bottom: 50px;"><i class="em em-chart_with_upwards_trend" aria-role="presentation" aria-label="CHART WITH UPWARDS TREND"></i> -Las encuestas</h3>
+
+    <p class="texto text-justify">
+      Cuando parecía que una segunda vuelta entre Gabriel Boric- Sebastián Sichel se consolidaba en los sondeos, una serie de acontecimientos afectaron duramente al candidato oficialista que se encuentra cuarto en la intención de voto actualmente.
+      <br>
+      <br>
+      A su vez, otro candidato de derecha, José Antonio Kast capturó a una parte del electorado que lo llevó a liderar la carrera en algunos sondeos.
+      <br>
+      <br>
+      En Chile, las elecciones no son obligatorias y la participación no supera el 50% desde que se instaló el voto voluntario en 2012. En las últimas elecciones en junio a gobernador regional y a constituyentes, solo el 19,6% acudió a las urnas, lo que equivale a 2,5 millones de chilenos de los 13 millones que se encuentran en el padrón electoral. 
+      <br>
+      <br>
+      Tanto la publicación del estudio “Plaza Pública” de la encuestadora Cadem y “Pulso ciudadano” de la empresa Activa están basados en (preguntar a Gustavo lo del 100%)
+      </p>
+
+    <h3>Intención de voto</h3>
+    <p>Actualizado al 20 de octubre</p>
+    <a   class="btn btn-primary btn-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Insertar visualización
+    </a>
+  </p>
+
+  <div class="collapse" id="collapseExample">
+    <div style="height: 200px;" class="card card-body">
+      <p> <strong>Copiar para insertar</strong></p>
+       <p> &lt;embed type="text/html" src="https://bit.ly/2YXzQq2" width="500" height="200"&gt;</p>
+      <a href="">Ver visualización con Flourish</a>
+    </div>
+  </div>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link  active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Cadem</a>
+        <a class="nav-item nav-link " id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Activa</a>
+      </div>
+    </nav>
+      <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"> 
+        <br>
+        <h2>Plaza Pública</h2>
+        <p class="font-italic">Si las elecciones presidenciales fueran el próximo domingo, ¿Por cuál de los siguientes candidatos votaría usted? 
+        </p>
+        <br>
+        <div class="container" style="width: 80%; height: 80vh;">
+          <canvas  height="1" width="2" id="myChart" ></canvas>
+        </div>
+      </div>
+
+      <div class="tab-pane " id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"> 
+        <br>
+        <h2>Pulso Ciudadano</h2>
+        <p class="font-italic">Si las elecciones presidenciales fueran este domingo ¿Por quién votarías? </p>
+        <br>
+        <div class="container" style="width: 80%; height: 80vh;">
+          <canvas  height="1" width="2" id="myChart1" ></canvas>
+        </div>
+      </div>
+  </div>
+
+    <h3>Evolución de la intención de voto</h3>
+    <p>Actualizado al 20 de octubre</p>
+
+  <p></p>
+
+    <a   class="btn btn-primary btn-light" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Insertar visualización
+    </a>
+  </p>
+
+  <div class="collapse" id="collapseExample">
+    <div style="height: 200px;" class="card card-body">
+      <p> <strong>Copiar para insertar</strong></p>
+       <p> &lt;embed type="text/html" src="https://bit.ly/2YXzQq2" width="500" height="200"&gt;</p>
+      <a href="">Ver visualización con Flourish</a>
+    </div>
+  </div>
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab2" role="tablist">
+      <a class="nav-item nav-link  active" id="nav-home-tab2" data-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-home" aria-selected="true">Cadem</a>
+      <a class="nav-item nav-link " id="nav-profile-tab2" data-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-profile" aria-selected="false">Activa</a>
+    </div>
+  </nav>
+<div class="tab-content" id="nav-tabContent2">
+    <div class="tab-pane fade show active" id="nav-home2" role="tabpanel" aria-labelledby="nav-home-tab"> 
+      <br>
+      <h2>Plaza Pública</h2>
+      <p class="font-italic">Si las elecciones presidenciales fueran el próximo domingo, ¿Por cuál de los siguientes candidatos votaría usted? 
+      </p>
+      <br>
+      <div class="container" style="width: 80%; height: 80vh;">
+        <canvas  height="1" width="2" id="myChart2" ></canvas>
+      </div>
+    </div>
+
+    <div class="tab-pane " id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile-tab"> 
+      <br>
+      <h2>Pulso Ciudadano</h2>
+      <p class="font-italic">Si las elecciones presidenciales fueran este domingo ¿Por quién votarías? </p>
+      <br>
+      <div class="container" style="width: 80%; height: 80vh;">
+        <canvas  height="1" width="2" id="myChart3" ></canvas>
+      </div>
+    </div>
+</div>
+    <div style="height: 100vh;" id="Legislativas">
+
+      <h3 style="margin-top: 100px;" ><i class="em em-classical_building" aria-role="presentation" aria-label=""></i> -Legislativas</h3>
+
+      <div style="margin-top: 100px; margin-bottom: 200px;" class="container">
+        <div class="row">
+          <div class="col numerosgrandes">
+            <p class="numero text-center">155</p>
+            <p class="rol text-center">diputados</p>
+          </div>
+          <div class="col numerosgrandes">
+            <p class="numero text-center">27</p>
+            <p class="rol text-center">senadores</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="texto text-justify">Pero, además del próximo jefe de Estado, el 21 de noviembre los chilenos también deberán votar a los próximos representantes en las Cámaras del Senado y Diputados. 
+        <br>
+        <br>
+        Actualmente, en el Senado tiene mayoría en el senado el bloque oficialista Chile Vamos con escaños 19. La coalición está compuesta por cuarto partidos de derecha y centro-derecha: Renovación Popular, Evópoli y la Unión Demócrata Independiente, y un senador independiente.
+        <br>
+        <br>
+        En la oposición están el bloque de izquierda Convergencia Progresista con 15 legisladores, el Partido Demócrata Cristiano con seis asientos en la Cámara y  el Frente Amplio y el Partido Progresista con un legislador cada uno, además de un senador independiente.
+        <br>
+        <br>
+        En el Senado, los 155 lugares se reparten 71 para el oficialismo y 30 para la Convergencia Progresista. Además, el bloque Chile Digno y el Frente Amplio tienen 13 cada uno, y el partido democratacristiano 12 diputados.
+        </p>
+      <h3>Ver todos los partidos que se postulan para 2021</h3>
+        <p> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> Tienen candidato presidencial </p>
+
+
+       <table class="table">
+        <thead>
+          <tr>
+            <th style="width: 100px;" scope="col">#</th>
+            <th scope="col">Pacto</th>
+           
+            <th scope="col">Partidos</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i>Chile Podemos +</td>
+            
+            <td>Renovación Nacional
+              <br>
+              Unión Demócrata Independiente
+              <br>
+              Evolución Política
+              <br>
+              Partido Regionalista Independiente Demócrata
+              <td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> Partido de la Gente</td>
+            <td>	Partido de la Gente</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Partido de Trabajadores Revolucionarios</td>
+            <td>Partido de Trabajadores Revolucionarios</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i>Nuevo Pacto Social</td>
+            <td>Partido Socialista
+              <br>
+              Partido por la Democracia
+              <br>
+              Partido Demócrata Cristiano
+              <br>
+              Ciudadanos
+              <br>
+              Partido Radical
+              <br>
+              Partido Liberal</td>
+           
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Partido Ecologista Verde</td>
+            <td>Partido Ecologista Verde</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i>Unión Patriótica</td>
+            <td>Unión Patriótica</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Dignidad Ahora</td>
+            <td>Partido Humanista
+              <br>
+              Partido Igualdad</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Frente Cristiano</td>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> Partido Republicano
+              <br>
+              Partido Conservador Cristiano</td>
+            
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i>Apruebo Dignidad</td>
+            <td>Revolución Democrática
+              <br>
+              Comunes
+              <br>
+              Convergencia Social
+              <br>
+              Partido Comunista
+              <br>
+              Federación Regionalista Verde Social</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Nuevo Tiempo</td>
+            <td>Nuevo Tiempo</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td> Independientes Unidos</td>
+            <td>Centro Unido
+              <br>
+              Partido Nacional Ciudadano</td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td> <i class="em em-star" aria-role="presentation" aria-label="WHITE MEDIUM STAR"></i> Partido Progresista</td>
+            <td>Partido Progresista</td>
+          </tr>
+        </tbody>
+        </table>
+      <nav class="navbar  navbar-light">
+      <a style="margin: auto;" class="navbar-brand" href="#">
+        <img src="Boceto_ARN.png" width=100" alt="">
+      </a>
+    </nav>
+
+<script src="graficas.js"></script>
+ 
+
+</body>
+
+</html>
