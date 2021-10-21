@@ -141,7 +141,7 @@ scales: {
  maintainAspectRatio: false,
  legend: { display: false },
  title: {
-         text: 'Fuente: encuestadora Cadem',
+         text: 'Fuente: encuestadora Activa',
          display: true,
          position: 'bottom',
          align: 'start'
@@ -323,7 +323,7 @@ title: {
     },
 plugins: {
 title: {
-        text: 'Fuente: encuestadora Cadem',
+        text: 'Fuente: encuestadora Activa',
         display: true,
         position: 'bottom',
         align: 'start'
